@@ -1,0 +1,23 @@
+{
+    "server": {
+        "url": "http://localhost:8080/ui/",
+        "projectName": "Riyab Selenium NUNIT",
+        "launchName": "Testing",
+        "enable": true
+    },
+    "client": {
+        "name": "your-client-name",
+        "description": "your-client-description",
+        "attributes": [
+            {
+                "key": "key1",
+                "value": "value1"
+            },
+            {
+                "key": "key2",
+                "value": "value2"
+            }
+        ],
+        "enable": true
+    }
+}

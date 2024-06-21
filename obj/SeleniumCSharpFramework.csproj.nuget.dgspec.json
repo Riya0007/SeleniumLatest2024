@@ -1,0 +1,137 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Knowledge Base\\seleniumproj\\SelenumProject-RiyaBasak\\NUNITSeleniumRB\\2023SeleniumNUNITRB\\SeleniumCSharpFramework\\SeleniumCSharpFramework.csproj": {}
+  },
+  "projects": {
+    "C:\\Knowledge Base\\seleniumproj\\SelenumProject-RiyaBasak\\NUNITSeleniumRB\\2023SeleniumNUNITRB\\SeleniumCSharpFramework\\SeleniumCSharpFramework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Knowledge Base\\seleniumproj\\SelenumProject-RiyaBasak\\NUNITSeleniumRB\\2023SeleniumNUNITRB\\SeleniumCSharpFramework\\SeleniumCSharpFramework.csproj",
+        "projectName": "SeleniumCSharpFramework",
+        "projectPath": "C:\\Knowledge Base\\seleniumproj\\SelenumProject-RiyaBasak\\NUNITSeleniumRB\\2023SeleniumNUNITRB\\SeleniumCSharpFramework\\SeleniumCSharpFramework.csproj",
+        "packagesPath": "C:\\Users\\Riya.Basak\\.nuget\\packages\\",
+        "outputPath": "C:\\Knowledge Base\\seleniumproj\\SelenumProject-RiyaBasak\\NUNITSeleniumRB\\2023SeleniumNUNITRB\\SeleniumCSharpFramework\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Riya.Basak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/claros-devops/claros-nuget/_packaging/claros-nuget/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "DotNetSeleniumExtras.PageObjects": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "DotNetSeleniumExtras.PageObjects.Core": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "DotNetSeleniumExtras.WaitHelpers": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "ExtentReports": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.3.2, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[4.11.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.11.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "WebDriverManager": {
+              "target": "Package",
+              "version": "[2.16.2, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
